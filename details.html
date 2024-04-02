@@ -26,12 +26,13 @@
     <!-- Page Custom CSS File -->
     <link rel="stylesheet" href="./css/details.css" />
     <title>Details Page</title>
+
   </head>
   <body>
     <!-- Loader -->
     <div class="loader">
-      <div class="spinner">
-        <i class="fa-regular fa-circle-notch fa-spin icon"></i>
+    <div class="spinner">
+      <i class="fa-regular fa-circle-notch fa-spin icon"></i>
       </div>
     </div>
     <!-- Scroll Top -->
@@ -71,10 +72,23 @@
     </div>
     <main class="main">
       <div class="container">
-        <section class="country-details"></section>
+        <section class="country-details">
+          <div class="country-flag">
+            <img src="" alt="Country Flag" />
+          </div>
+          <div class="country-info">
+            <h1 class="country-name"></h1>
+            <ul>
+              <li><strong>Population: </strong><span class="population"></span></li>
+              <li><strong>Region: </strong><span class="region"></span></li>
+              <li><strong>Capital: </strong><span class="capital"></span></li>
+              <!-- Add more details here if needed -->
+            </ul>
+          </div>
+        </section>
       </div>
     </main>
-    <script src="./js/common.js"></script>
-    <script src="./js/details.js"></script>
+    <script src="details.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
