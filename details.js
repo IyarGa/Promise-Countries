@@ -44,3 +44,5 @@ async function displayCountryDetails() {
 window.addEventListener("load", () => {
     displayCountryDetails();
 });
+
+
